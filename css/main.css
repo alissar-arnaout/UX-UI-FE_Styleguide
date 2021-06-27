@@ -1,27 +1,46 @@
+h1, h2 {
+  font-family: 'Montaga', serif;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 /* Header Styles */
 .header {
-  background-image: url(../images/upsBackground.png);
+  background-image: url(../images/header.png);
   background-size: cover;
   background-repeat: no-repeat;
-  max-height: 500px;
-  height: 250px;
+  height: 500px;
   background-position: bottom;
 }
+
+.sectionHead {
+  margin-top: 80px;
+  padding-bottom: 10px;
+
+}
+
 #pageTopic {
   text-align: center;
   font-size: 30px;
   font-weight: 900;
 }
+
 /* Primary Color */
 .colorContainer {
   display: inline-block;
   margin: 15px;
 }
+
 .swatch {
    height: 200px;
    width: 170px;
-   border: 1px solid black;
+   border-top: 1px solid black;
+   border-right: 1px solid black;
+   border-left: 1px solid black;
 }
+
 .hexCode {
    padding: 15px;
    text-align: center;
@@ -30,45 +49,47 @@
    border-bottom-left-radius: 7px;
    border-bottom-right-radius: 7px;
 }
-.darkBlue {
-  background-color: #333366;
+
+.light {
+  background-color: #EFEBE7;
 }
+.beige {
+  background-color: #CFC8BC;
+}
+
+.terracotta{
+  background-color: #A44A3F;
+}
+
+.sageGreen {
+  background-color: #A3BF9B;
+}
+
+.dark {
+  background-color: #1D281A;
+}
+
 .darkGrey {
-  background-color: #545454;
+  background-color: #6A6A6A;
 }
-.lightGrey {
-  background-color: #E3E3E3;
-}
-.white {
-  background-color: #FFFFFF;
-}
-.lightBlue {
-  background-color: #12A0F6;
-}
-.red {
-  background-color: #F84848;
-}
-.orange {
-  background-color: #FC7705;
-}
-.lightBlue {
-  background-color: #13A0F6;
-}
-.lightGreen {
-  background-color: #8ABE48;
-}
+
+
+
+
 /* Typography CSS */
 .type_container {
    display: inline-block;
    margin: 20px;
 }
+
 .large {
     font-size: 66px;
     margin-bottom: 15px;
     margin-bottom: 15px;
     margin-top: 0;
 }
-.light {
+
+.lightType {
     font-weight: 100;
 }
 .regular {
@@ -86,23 +107,22 @@
     font-size: 42px;
 }
 .typography h3 {
-    font-weight: 700;
     font-size: 34px;
 }
 .typography h4 {
     font-size: 26px;
 }
 
+.pType {
+  font-size: 20px;
+}
+
 /* UI Elements */
 .button {
-   display: inline-block;
-   padding: 15px;
-   margin: 15px;
-   width: 150px;
-   font-size: 14px;
-   text-align: center;
-   color: white;
+   display: block;  
+   margin-bottom: 15px; 
 }
+
 .primary {
   background-color: #2B459A;
 }
